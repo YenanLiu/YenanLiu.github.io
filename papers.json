@@ -1,0 +1,364 @@
+[
+  {
+    "id": "satebench",
+    "category": "understanding",
+    "title": "Humans in Space: Can MLLMs Construct Human-Centric Spatial Understanding via Active Exocentric Exploration?",
+    "authors": "Tianchen Guo, Tengyue Zhang, Chen Liu, Ling Chen, Xin Yu",
+    "venue": "WACV 2027",
+    "image": "satebench.png",
+    "summary": "SATEBench evaluates human-centric spatial understanding through active exocentric exploration, contrasting multi-turn view selection with passive multi-view observation.",
+    "first_author": false,
+    "links": {
+      "Paper": "https://openreview.net/forum?id=KFOFuaIl9C",
+      "PDF": "https://openreview.net/pdf?id=KFOFuaIl9C"
+    },
+    "detail": "SATEBench evaluates human-centric spatial understanding through active exocentric exploration, contrasting multi-turn view selection with passive multi-view observation."
+  },
+  {
+    "id": "opengcua",
+    "category": "agents",
+    "title": "OpenGCUA: Toward a Fully Open Stack for Generalist Computer Use",
+    "authors": "Hanzhang Zhou, Long Li, Quyu Kong, Lei Wang, Panrong Tong, Long Chen, Tianyu Xia, Gongjie Zhang, Xu Zhang, Chen Liu, Jianan Zhang, Chenglin Cai, Zhengwen Zeng, Steven Hoi, Yue Wang",
+    "venue": "Technical report · 2026",
+    "image": "opengcua.png",
+    "summary": "An open stack for generalist computer-use agents that combine visual interaction with programmatic tools.",
+    "detail": "An open stack for generalist computer-use agents that combine visual interaction with programmatic tools.",
+    "links": {
+      "Paper": "https://arxiv.org/abs/2610.22200",
+      "Project": "https://tongyi-mai.github.io/OpenGCUA/"
+    },
+    "first_author": false
+  },
+  {
+    "id": "innerzoom",
+    "category": "agents",
+    "title": "One Forward Beats Two: InnerZoom for Accurate and Efficient GUI Grounding",
+    "authors": "Chen Liu, Ling Chen, Hanzhang Zhou, Liangyu Chen, Chenglin Cai, Xin Yu, Steven Hoi, Yue Wang",
+    "venue": "EMNLP 2026",
+    "image": "innerzoom.png",
+    "summary": "Reusing intermediate visual evidence within a single forward pass for accurate, efficient GUI grounding.",
+    "detail": "Reusing intermediate visual evidence within a single forward pass for accurate, efficient GUI grounding.",
+    "links": {
+      "Paper": "https://aclanthology.org/2026.emnlp-main.843/",
+      "arXiv": "https://arxiv.org/abs/2606.30084"
+    },
+    "first_author": true
+  },
+  {
+    "id": "atmem",
+    "category": "agents",
+    "title": "What Memory Do GUI Agents Really Need? From Passive Records to Active Task-Driving States",
+    "authors": "Chen Liu, Ling Chen, Hanzhang Zhou, Xu Zhang, Quyu Kong, Panrong Tong, Wenhao Wang, Xin Yu, Steven Hoi, Yue Wang",
+    "venue": "Preprint · 2026",
+    "image": "atmem.png",
+    "summary": "ATMem turns passive interaction records into active task-driving memory for long-horizon GUI agents.",
+    "detail": "ATMem turns passive interaction records into active task-driving memory for long-horizon GUI agents.",
+    "links": {
+      "Paper": "https://arxiv.org/abs/2606.31612"
+    },
+    "first_author": true
+  },
+  {
+    "id": "mobileworld",
+    "category": "agents",
+    "title": "MobileWorld: Benchmarking Autonomous Mobile Agents in Agent-User Interactive and MCP-Augmented Environments",
+    "authors": "Quyu Kong, Xu Zhang, Zhenyu Yang, Nolan Gao, Chen Liu, Panrong Tong, Chenglin Cai, Hanzhang Zhou, Jianan Zhang, Liangyu Chen, Zhidan Liu, Steven Hoi, Yue Wang",
+    "venue": "ACL 2026",
+    "image": "mobileworld.png",
+    "summary": "A benchmark for mobile agents spanning cross-app workflows, user interaction and MCP tools.",
+    "detail": "A benchmark for mobile agents spanning cross-app workflows, user interaction and MCP tools.",
+    "links": {
+      "Paper": "https://aclanthology.org/2026.acl-long.278/",
+      "Project": "https://tongyi-mai.github.io/MobileWorld/",
+      "Code": "https://github.com/Tongyi-MAI/MobileWorld"
+    },
+    "first_author": false
+  },
+  {
+    "id": "uiins",
+    "category": "agents",
+    "title": "UI-Ins: Enhancing GUI Grounding with Multi-Perspective Instruction as Reasoning",
+    "authors": "Liangyu Chen, Hanzhang Zhou, Chenglin Cai, Jianan Zhang, Panrong Tong, Xu Zhang, Quyu Kong, Chen Liu, Yuqi Liu, Wenxuan Wang, Yue Wang, Qin Jin, Steven Hoi",
+    "venue": "ICLR 2026",
+    "image": "uiins.png",
+    "summary": "Treating diverse instructions as reasoning pathways for more reliable GUI grounding.",
+    "detail": "A two-stage approach first learns from diverse instructions, then uses reinforcement learning to select and combine useful perspectives. UI-Ins-7B serves as the executor in an AndroidWorld agent with a reported 74.1% success rate.",
+    "links": {
+      "Paper": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/5965f3a748a8d41415db2bfa44635cc3-Abstract-Conference.html",
+      "Code": "https://github.com/alibaba/UI-Ins",
+      "Models": "https://huggingface.co/Tongyi-MiA/UI-Ins-32B"
+    },
+    "first_author": false
+  },
+  {
+    "id": "uni4r",
+    "category": "generation",
+    "title": "Marrying Optimal Transport and ODEs for Unified Continuous-Time 4D Reconstruction and Tracking",
+    "authors": "Liying Yang, Hao Mo, Jialun Liu, Chen Liu, Xinxing Yu, Chenhao Guan, Hui Ma, Xiao Cao, Ajian Liu, Yanyan Liang",
+    "venue": "NeurIPS 2026",
+    "summary": "Uni4R brings 4D reconstruction and point tracking together through continuous velocity fields.",
+    "detail": "Uni4R brings 4D reconstruction and point tracking together through continuous velocity fields.",
+    "links": {
+      "Paper": "https://arxiv.org/abs/2608.09613"
+    },
+    "first_author": false,
+    "co_first": false,
+    "image": "uni4r.png"
+  },
+  {
+    "id": "ba-lrm",
+    "category": "generation",
+    "title": "Boundary-Aware Model with Deformable Feature Warping for Sparse-View Reconstruction",
+    "authors": "Liying Yang*, Yongqiang Zhang*, Chen Liu, Lincheng Li, Xin Yu, Yanyan Liang",
+    "venue": "IJCV 2026",
+    "summary": "Boundary-aware features and adaptive warping improve mesh reconstruction from sparse views.",
+    "detail": "Boundary-aware features and adaptive warping improve mesh reconstruction from sparse views.",
+    "links": {
+      "Paper": "https://doi.org/10.1007/s11263-026-03060-2"
+    },
+    "first_author": false,
+    "co_first": false,
+    "image": "ba-lrm.png"
+  },
+  {
+    "id": "cocogesture",
+    "category": "human",
+    "title": "CoCoGesture: Towards Coherent Co-speech 3D Gesture Generation in the Wild",
+    "authors": "Xingqun Qi, Hengyuan Zhang, Yatian Wang, Jiahao Pan, Chen Liu, Muyi Sun, Wei Xue, Shanghang Zhang, Sirui Han, Qifeng Liu, Yike Guo",
+    "venue": "Information Fusion 2026",
+    "summary": "Generating coherent and diverse co-speech gestures from in-the-wild speech with a large-scale gesture dataset.",
+    "detail": "Generating coherent and diverse co-speech gestures from in-the-wild speech with a large-scale gesture dataset.",
+    "links": {
+      "Paper": "https://doi.org/10.1016/j.inffus.2025.103613"
+    },
+    "first_author": false,
+    "co_first": false,
+    "image": "cocogesture.png"
+  },
+  {
+    "id": "cvbench",
+    "category": "understanding",
+    "title": "Beyond Single-View Sufficiency: CVBench for Cross-View Human Understanding",
+    "authors": "Tianchen Guo, Chen Liu, Xin Yu",
+    "venue": "CVPR 2026",
+    "summary": "Evaluating human understanding through questions that require complementary evidence from multiple camera views.",
+    "detail": "Evaluating human understanding through questions that require complementary evidence from multiple camera views.",
+    "links": {
+      "Paper": "https://openaccess.thecvf.com/content/CVPR2026/papers/Guo_Beyond_Single-View_Sufficiency_CVBench_for_Cross-View_Human_Understanding_CVPR_2026_paper.pdf"
+    },
+    "first_author": false,
+    "co_first": false,
+    "image": "cvbench.png"
+  },
+  {
+    "id": "ssmnbench",
+    "category": "understanding",
+    "title": "SSMNBench: Diagnosing Image-based Cross-View Human-Object Understanding via Single-View Sufficiency and Multi-View Necessity",
+    "authors": "Tianchen Guo, Chen Liu, Ling Chen, Xin Yu",
+    "venue": "Preprint · 2026",
+    "summary": "Distinguishing robustness to redundant views from the ability to combine evidence across views.",
+    "detail": "Distinguishing robustness to redundant views from the ability to combine evidence across views.",
+    "links": {
+      "Paper": "https://arxiv.org/abs/2606.25634"
+    },
+    "first_author": false,
+    "co_first": false,
+    "image": "ssmnbench.png"
+  },
+  {
+    "id": "maiui",
+    "category": "agents",
+    "title": "MAI-UI Technical Report: Real-World Centric Foundation GUI Agents",
+    "authors": "Hanzhang Zhou, Xu Zhang, Panrong Tong, Jianan Zhang, Liangyu Chen, Quyu Kong, Chenglin Cai, Chen Liu, Yue Wang, Jingren Zhou, Steven Hoi",
+    "venue": "Technical report · 2025",
+    "image": "maiui.png",
+    "summary": "Foundation GUI agents integrating user interaction, MCP tools, device–cloud collaboration and online reinforcement learning.",
+    "detail": "Foundation GUI agents integrating user interaction, MCP tools, device–cloud collaboration and online reinforcement learning.",
+    "links": {
+      "Paper": "https://arxiv.org/abs/2512.22047",
+      "Project": "https://tongyi-mai.github.io/MAI-UI/",
+      "Code": "https://github.com/Tongyi-MAI/MAI-UI"
+    },
+    "first_author": false
+  },
+  {
+    "id": "ddeseg",
+    "category": "avs",
+    "title": "Dynamic Derivation and Elimination: Audio Visual Segmentation with Enhanced Audio Semantics",
+    "authors": "Chen Liu, Liying Yang, Peike Li, Dadong Wang, Lincheng Li, Xin Yu",
+    "venue": "CVPR 2025",
+    "image": "ddeseg.png",
+    "summary": "Deriving distinct sound semantics and removing irrelevant audio for precise visual grounding.",
+    "detail": "DDESeg addresses overlapping sound sources and variation in the sounds produced by the same object. Semantic derivation enriches source-specific representations, while dynamic elimination removes audio information that does not match visible sounding regions.",
+    "links": {
+      "Paper": "https://openaccess.thecvf.com/content/CVPR2025/html/Liu_Dynamic_Derivation_and_Elimination_Audio_Visual_Segmentation_with_Enhanced_Audio_CVPR_2025_paper.html",
+      "Code": "https://github.com/YenanLiu/DDESeg"
+    },
+    "first_author": true
+  },
+  {
+    "id": "ravs",
+    "category": "avs",
+    "title": "Robust Audio-Visual Segmentation via Audio-Guided Visual Convergent Alignment",
+    "authors": "Chen Liu, Peike Li, Liying Yang, Dadong Wang, Lincheng Li, Xin Yu",
+    "venue": "CVPR 2025",
+    "image": "ravs.png",
+    "summary": "Local audio-visual alignment and uncertainty estimation for changing sounding objects.",
+    "detail": "Audio-guided interactions group visual features by their response to sound. An uncertainty module accounts for spatial and temporal ambiguity when objects frequently switch between sounding and silent states.",
+    "links": {
+      "Paper": "https://openaccess.thecvf.com/content/CVPR2025/html/Liu_Robust_Audio-Visual_Segmentation_via_Audio-Guided_Visual_Convergent_Alignment_CVPR_2025_paper.html"
+    },
+    "first_author": true
+  },
+  {
+    "id": "ds4d",
+    "category": "generation",
+    "title": "Not All Frame Features Are Equal: Video-to-4D Generation via Decoupling Dynamic-Static Features",
+    "authors": "Liying Yang, Chen Liu, Zhenwei Zhu, Ajian Liu, Hui Ma, Jian Nong, Yanyan Liang",
+    "venue": "ICCV 2025 · Highlight",
+    "summary": "Separating dynamic and static frame features for video-to-4D generation.",
+    "detail": "Separating dynamic and static frame features for video-to-4D generation.",
+    "links": {
+      "Paper": "https://arxiv.org/abs/2502.08377",
+      "Code": "https://github.com/LiyingCV/DS4D"
+    },
+    "first_author": false,
+    "co_first": false,
+    "image": "ds4d.gif"
+  },
+  {
+    "id": "luavs",
+    "category": "avs",
+    "title": "Benchmarking Audio Visual Segmentation for Long-Untrimmed Videos",
+    "authors": "Chen Liu, Peike Patrick Li, Qingtao Yu, Hongwei Sheng, Dadong Wang, Lincheng Li, Xin Yu",
+    "venue": "CVPR 2024",
+    "image": "luavs.png",
+    "summary": "A benchmark for grounding sounding objects across long videos, including silent intervals.",
+    "detail": "LU-AVS studies where and when objects produce sound in untrimmed videos. Frame-level temporal annotations, segmentation masks and bounding boxes support evaluation beyond short, continuously sounding clips.",
+    "links": {
+      "Paper": "https://openaccess.thecvf.com/content/CVPR2024/html/Liu_Benchmarking_Audio_Visual_Segmentation_for_Long-Untrimmed_Videos_CVPR_2024_paper.html",
+      "Project & dataset": "https://yenanliu.github.io/LU-AVS/"
+    },
+    "first_author": true
+  },
+  {
+    "id": "freeavatar",
+    "category": "human",
+    "title": "FreeAvatar: Robust 3D Facial Animation Transfer by Learning an Expression Foundation Model",
+    "authors": "Feng Qiu, Wei Zhang, Chen Liu, Rudong An, Lincheng Li, Yu Ding, Changjie Fan, Zhipeng Hu, Xin Yu",
+    "venue": "SIGGRAPH Asia 2024",
+    "image": "freeavatar.png",
+    "summary": "Learning an expression representation to transfer subtle facial motion across 3D avatars.",
+    "detail": "FreeAvatar combines an expression foundation model with a multi-avatar animation model. Learned expression features provide perceptual supervision, helping capture fine-grained expressions without relying on geometric constraints.",
+    "links": {
+      "Paper": "https://arxiv.org/abs/2409.13180",
+      "Code": "https://github.com/FuxiVirtualHuman/free_avatar"
+    },
+    "first_author": false
+  },
+  {
+    "id": "bavs",
+    "category": "avs",
+    "title": "BAVS: Bootstrapping Audio-Visual Segmentation by Integrating Foundation Knowledge",
+    "authors": "Chen Liu, Peike Li, Hu Zhang, Lincheng Li, Zi Huang, Dadong Wang, Xin Yu",
+    "venue": "IEEE TMM 2024",
+    "image": "bavs.jpg",
+    "summary": "Combining visual masks and audio semantics to suppress background noise and off-screen sounds.",
+    "detail": "A two-stage framework first identifies potential sounding objects and audio categories. An audio-visual semantic integration strategy then associates these predictions through a hierarchical audio-visual tree.",
+    "links": {
+      "Paper": "https://arxiv.org/abs/2308.10175",
+      "Project": "https://yenanliu.github.io/AVSS.github.io/"
+    },
+    "first_author": true
+  },
+  {
+    "id": "emotiongesture",
+    "category": "human",
+    "title": "EmotionGesture: Audio-Driven Diverse Emotional Co-Speech 3D Gesture Generation",
+    "authors": "Xingqun Qi*, Chen Liu*, Lincheng Li, Jie Hou, Haoran Xin, Xin Yu",
+    "venue": "IEEE TMM 2024",
+    "summary": "Modeling emotion and rhythmic beats in speech to generate expressive and diverse 3D gestures.",
+    "detail": "Modeling emotion and rhythmic beats in speech to generate expressive and diverse 3D gestures.",
+    "links": {
+      "Paper": "https://ieeexplore.ieee.org/document/10543093",
+      "Project": "https://xingqunqi-lab.github.io/Emotion-Gesture-Web/"
+    },
+    "first_author": true,
+    "co_first": true,
+    "image": "emotiongesture.png"
+  },
+  {
+    "id": "hairstylenet",
+    "category": "human",
+    "title": "HairStyle Editing via Parametric Controllable Strokes",
+    "authors": "Xinhui Song*, Chen Liu*, Youyi Zheng, Zunlei Feng, Lincheng Li, Kun Zhou, Xin Yu",
+    "venue": "IEEE TVCG 2024",
+    "summary": "Interactive hairstyle editing using parametric strokes to control local hair shape and appearance.",
+    "detail": "Interactive hairstyle editing using parametric strokes to control local hair shape and appearance.",
+    "links": {
+      "Paper": "https://doi.org/10.1109/TVCG.2023.3241894"
+    },
+    "first_author": true,
+    "co_first": true,
+    "image": "hairstylenet.png"
+  },
+  {
+    "id": "avsc",
+    "category": "avs",
+    "title": "Audio-Visual Segmentation by Exploring Cross-Modal Mutual Semantics",
+    "authors": "Chen Liu, Peike Li, Xingqun Qi, Hu Zhang, Lincheng Li, Dadong Wang, Xin Yu",
+    "venue": "ACM MM 2023",
+    "image": "avsc.png",
+    "summary": "Learning audio-visual semantic correspondence to distinguish sounding objects from silent distractors.",
+    "detail": "A silent-object-aware objective reduces visual saliency bias. Audio category scores are associated with potential object masks to establish cross-modal semantic correspondence.",
+    "links": {
+      "Paper": "https://arxiv.org/abs/2307.16620"
+    },
+    "first_author": true
+  },
+  {
+    "id": "handgesture",
+    "category": "human",
+    "title": "Diverse 3D Hand Gesture Prediction from Body Dynamics by Bilateral Hand Disentanglement",
+    "authors": "Xingqun Qi, Chen Liu, Muyi Sun, Lincheng Li, Changjie Fan, Xin Yu",
+    "venue": "CVPR 2023",
+    "summary": "Predicting diverse 3D hand gestures from body motion while modeling the two hands separately.",
+    "detail": "Predicting diverse 3D hand gestures from body motion while modeling the two hands separately.",
+    "links": {
+      "Paper": "https://openaccess.thecvf.com/content/CVPR2023/papers/Qi_Diverse_3D_Hand_Gesture_Prediction_From_Body_Dynamics_by_Bilateral_CVPR_2023_paper.pdf"
+    },
+    "first_author": false,
+    "co_first": false,
+    "image": "handgesture.jpg"
+  },
+  {
+    "id": "addlight",
+    "category": "agriculture",
+    "title": "ADDLight: An Energy-Saving Adder Neural Network for Cucumber Disease Classification",
+    "authors": "Chen Liu, Chunjiang Zhao, Huarui Wu, Xiao Han, Shuqin Li",
+    "venue": "Agriculture 12(4), 452 · 2022",
+    "summary": "An energy-saving adder neural network for cucumber disease classification.",
+    "links": {
+      "Paper": "https://doi.org/10.3390/agriculture12040452"
+    },
+    "first_author": true,
+    "co_first": false,
+    "image": "addlight.png",
+    "detail": "An energy-saving adder neural network for cucumber disease classification."
+  },
+  {
+    "id": "efdet",
+    "category": "agriculture",
+    "title": "EFDet: An efficient detection method for cucumber disease under natural complex environments",
+    "authors": "Chen Liu, Huaji Zhu, Wang Guo, Xiao Han, Cheng Chen, Huarui Wu",
+    "venue": "Computers and Electronics in Agriculture 189, 106378 · 2022",
+    "summary": "Efficient cucumber disease detection in natural scenes with complex backgrounds.",
+    "links": {
+      "Paper": "https://doi.org/10.1016/j.compag.2021.106378"
+    },
+    "first_author": true,
+    "co_first": false,
+    "image": "efdet.png",
+    "detail": "Efficient cucumber disease detection in natural scenes with complex backgrounds."
+  }
+]
